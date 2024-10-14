@@ -1,14 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // pentru React 18
+import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import store from './redux/store'; // importăm store-ul
-import App from './App'; // componenta principală
+// import { PersistGate } from 'redux-persist/integration/react';
+import { store } from './components/redux/Store';
+import App from './components/App/App';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render( <
-    Provider store = { store } >
-    <
-    App / >
-    <
-    /Provider>
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
 );
