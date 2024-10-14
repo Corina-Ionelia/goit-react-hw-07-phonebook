@@ -1,10 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Schimbă aici importul
-import App from './App';
+import ReactDOM from 'react-dom/client'; // pentru React 18
 import { Provider } from 'react-redux';
-import { store } from './redux/store';
-import reportWebVitals from './reportWebVitals';
-
+import store from './redux/store'; // importăm store-ul
+import App from './App'; // componenta principală
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( <
@@ -14,7 +12,3 @@ root.render( <
     <
     /Provider>
 );
-
-
-// Și la finalul fișierului
-reportWebVitals();
