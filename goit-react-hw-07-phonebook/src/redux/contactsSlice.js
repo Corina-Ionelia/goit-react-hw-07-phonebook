@@ -1,7 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'https://mockapi.io/clone/670cd8437e5a228ec1d19d75/contacts';
+const API_URL = 'https://cors-anywhere.herokuapp.com/https://mockapi.io/clone/670cd8437e5a228ec1d19d75/contacts';
+
 
 export const fetchContacts = createAsyncThunk('contacts/fetchAll', async() => {
     const response = await axios.get(API_URL);
