@@ -1,14 +1,25 @@
 {
-    "name": "goit-react-hw-07-phonebook",
-    "version": "0.1.0",
-    "private": true,
-    "homepage": "https://corina-ionelia.github.io/goit-react-hw-08-phonebook/",
+    {
+        "name": "goit-react-hw-08-phonebook",
+        "version": "0.1.0",
+        "private": true,
+        "homepage": "https://corina-ionelia.github.io/goit-react-hw-08-phonebook/",
+        "scripts": {
+            "start": "react-scripts start",
+            "build": "react-scripts build",
+            "test": "react-scripts test",
+            "eject": "react-scripts eject",
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build"
+        },
+    }
     "dependencies": {
         "@reduxjs/toolkit": "^2.3.0",
         "@testing-library/jest-dom": "^6.5.0",
         "@testing-library/react": "^16.0.1",
         "@testing-library/user-event": "^14.5.2",
         "axios": "^1.7.7",
+        "gh-pages": "^6.2.0",
         "normalize.css": "^8.0.1",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
