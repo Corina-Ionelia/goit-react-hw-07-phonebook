@@ -2,7 +2,7 @@
     "name": "goit-react-hw-07-phonebook",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://Corina-Ionelia.github.io/goit-react-hw-07-phonebook/",
+    "homepage": "https://corina-ionelia.github.io/goit-react-hw-08-phonebook/",
     "dependencies": {
         "@reduxjs/toolkit": "^2.3.0",
         "@testing-library/jest-dom": "^6.5.0",
